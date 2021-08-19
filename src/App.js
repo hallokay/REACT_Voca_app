@@ -2,14 +2,14 @@ import Header from "./components/Header";
 import DayList from "./components/DayList";
 import Day from "./components/Day";
 import EmptyPage from "./components/EmptyPage";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import CreateWord from "./components/CreateWord";
 import CreateDay from "./components/CreateDay";
 
 
  function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="App">
         <Header />
 
@@ -20,10 +20,10 @@ import CreateDay from "./components/CreateDay";
           <Route exact path="/day/:day">
             <Day />
           </Route>
-          <Route path="/create_word">
+          <Route exact path="/create_word">
             <CreateWord />
           </Route>
-          <Route path="/create_day">
+          <Route exact path="/create_day">
             <CreateDay />
           </Route>
           <Route path="/">
@@ -31,7 +31,7 @@ import CreateDay from "./components/CreateDay";
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
