@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react_voca_app/static/css/main.fc657bd5.chunk.css",
+    "main.js": "/react_voca_app/static/js/main.f292d6ad.chunk.js",
+    "main.js.map": "/react_voca_app/static/js/main.f292d6ad.chunk.js.map",
+    "runtime-main.js": "/react_voca_app/static/js/runtime-main.acaab5f2.js",
+    "runtime-main.js.map": "/react_voca_app/static/js/runtime-main.acaab5f2.js.map",
+    "static/js/2.089e6c71.chunk.js": "/react_voca_app/static/js/2.089e6c71.chunk.js",
+    "static/js/2.089e6c71.chunk.js.map": "/react_voca_app/static/js/2.089e6c71.chunk.js.map",
+    "index.html": "/react_voca_app/index.html",
+    "static/css/main.fc657bd5.chunk.css.map": "/react_voca_app/static/css/main.fc657bd5.chunk.css.map",
+    "static/js/2.089e6c71.chunk.js.LICENSE.txt": "/react_voca_app/static/js/2.089e6c71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acaab5f2.js",
+    "static/js/2.089e6c71.chunk.js",
+    "static/css/main.fc657bd5.chunk.css",
+    "static/js/main.f292d6ad.chunk.js"
+  ]
+}
