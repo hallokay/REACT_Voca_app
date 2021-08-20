@@ -6,10 +6,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import CreateWord from "./components/CreateWord";
 import CreateDay from "./components/CreateDay";
 
-
- function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react_voca_app">
       <div className="App">
         <Header />
 
